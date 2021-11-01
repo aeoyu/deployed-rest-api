@@ -1,0 +1,23 @@
+{
+  "name": "cpnt262-a5",
+  "version": "1.0.0",
+  "description": "**Author :** Filora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeoyu/cpnt262-a5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeoyu/cpnt262-a5/issues"
+  },
+  "homepage": "https://github.com/aeoyu/cpnt262-a5#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
