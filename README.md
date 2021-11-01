@@ -8,8 +8,7 @@
 
 ## Information about Api
 
-- Simple API that searches by ISBN
-  - example: ISBN code: 9781338596700
+-
 
 ## Attribution / Links
 
