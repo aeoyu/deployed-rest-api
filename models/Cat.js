@@ -8,15 +8,15 @@ const schema = new mongoose.Schema({
 	title: {
 		type: String,
 	},
-  description: {
-    type: String,
-  },
-  image: {
-    type: String,
-  }
+	description: {
+		type: String,
+	},
+	image: {
+		type: String,
+	},
 	birthday: {
-    Type: Date,
-  },
+		type: Date,
+	},
 });
 
 const Cat = mongoose.model("Cat", schema);

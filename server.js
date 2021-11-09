@@ -6,11 +6,10 @@ const api = require("./route/api");
 async function main() {
 	const app = express();
 
+	app.use(express.static("public"));
 	app.use(api);
 
-	await mongoose.connect(
-		"mongodb+srv://filora:C9_p.4WX*3JqF_j@cluster0.x2cwc.mongodb.net/catsDatabase?retryWrites=true&w=majority"
-	);
+	await mongoose.connect(process.env.MONGO_CONN_STRING);
 	// Start Server
 
 	app.listen(process.env.PORT, function () {

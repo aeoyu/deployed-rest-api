@@ -12,7 +12,7 @@
 
 ## Attribution / Links
 
-- []()
+- [Seeding a database](https://medium.com/@tayot51/seed-mongodb-mongoose-seed-378d7c0122d3)
 
 ### License
 
