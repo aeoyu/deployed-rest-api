@@ -1,0 +1,32 @@
+body {
+	background-color: #ffffff;
+	color: #001aff;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	padding: 1rem;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+pre {
+	background-color: #f1ff71;
+	padding: 0.7rem 1rem;
+	color: #f8f8ff;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #cf67ff;
+}
+
+a:hover {
+	color: #ff1717;
+}
