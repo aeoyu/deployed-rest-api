@@ -6,6 +6,7 @@ const api = require("./route/api");
 async function main() {
 	const app = express();
 
+	//
 	app.use(express.static("public"));
 	app.use(api);
 
@@ -16,4 +17,5 @@ async function main() {
 		console.log(`Listening on port ${process.env.PORT}`);
 	});
 }
-main();
+
+main().catch((e) => console.error(e));
