@@ -3,7 +3,7 @@ const express = require("express");
 const Cat = require("../models/Cat");
 const router = express.Router();
 
-// Server items routes
+// Server items routes... request data
 router.get("/api/cats", async (req, res, next) => {
 	try {
 		// Find cat

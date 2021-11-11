@@ -1,7 +1,8 @@
+// store environment with dotenv
 require("dotenv").config();
 const mongoose = require("mongoose");
 const Cat = require("../Cat");
-
+//  err handling
 const wipeAndSeed = async () => {
 	try {
 		await mongoose.connect(process.env.MONGO_CONN_STRING);
@@ -17,7 +18,7 @@ const wipeAndSeed = async () => {
 			},
 			{
 				id: 2,
-				title: "White Cate",
+				title: "White Cat",
 				description: "A white cat!, Cute",
 				image:
 					"https://images.unsplash.com/photo-1606208427954-aa8319c4815e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",

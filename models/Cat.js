@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+
+// field validation
 const schema = new mongoose.Schema({
 	id: {
 		type: Number,
